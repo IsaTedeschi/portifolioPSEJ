@@ -1,0 +1,123 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+}
+
+/*mexe só com a lista geral do menu*/
+#index ul{
+    background-color: #FBFBFB;
+    padding: 0px;
+    margin-top: -25px;
+    float: left;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+/*como os itens se relacionam*/
+#index ul li, img{
+    display: inline-block;
+    margin: 0 20px 0 100px;
+}
+
+/*separação da imagem com os links*/
+#index ul img{
+    margin: 0 10px 0 0px;
+    width: 50px;
+}
+
+/*detalhes dos links*/
+#index ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 15px ;
+    float: left;
+    padding: 2% 20px 2% 20px
+}
+
+
+/*---- Parte central -----*/
+#bloco-central{
+    background-color: #05ADAD;
+    padding: 0px 55px 75px 15%;
+}
+
+
+/*----- Parte do sobre você -----*/
+#bloco-central h1{
+    padding-top: 7%;
+}
+
+#bloco-central img{
+    width: 10%;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+
+/*----- Bloco do meio -----*/
+
+/*enunciado "conhecimentos"*/
+#bloco-conhecimentos h2 {
+    padding-top: 7%;
+    font-size: 29px;
+    text-align: center;
+}
+
+/*formatações gerais*/
+#bloco-conhecimentos ul{
+    background-color: #036E6E;
+    color: #FBFBFB;
+    list-style: none;
+    text-align: center;
+    margin: 5px 45px 60px 15px;
+    border-radius: 7px;
+}
+
+/*alinhamento da lista de enunciados*/
+.list{
+    display: inline-block;
+}
+
+/*formatações sobre a lista*/
+#bloco-conhecimentos ul li{
+    margin: 0px -22px 0px -22px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+/*só sobre os enunciados*/
+.dentro{
+    background-color: #05ADAD;   
+    border-radius: 5px;
+    padding: auto;
+    padding-top: 6px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+}
+
+
+
+/*------ Contatos -------*/
+
+#rodape h3{
+    font-size: 30px;
+    background-color: #05ADAD;
+}
+
+#rodape p{
+    padding: 20px;
+}
+
+/*------ fim --------*/
+#final p{
+    background-color: #FBFBFB;
+    text-align: center;
+    margin: 12px;
+}
+
+
+
+
+
